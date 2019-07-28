@@ -1,4 +1,6 @@
 logging.file: logs/application.log
+server:
+  port: 9083
 logging:
   level:
       org:

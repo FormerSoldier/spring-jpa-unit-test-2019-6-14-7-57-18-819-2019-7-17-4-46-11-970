@@ -23,7 +23,7 @@ public class UserRepositoryTest {
   @Test
   public void test_should_return_user_when_the_user_exist() {
     //given
-    User user = new User();
+    User user = new User("aaa");
     user.setName("test");
     userRepository.save(user);
 
